@@ -123,7 +123,7 @@ if __name__ == "__main__":
         domains = domains[:-1]
     
     for domain in domains:
-        print(f"[*] Scraping the web for subdomains of {domain}, the could take a while...")
+        print(f"[*] Scraping the web for subdomains of {domain}, this could take a while...")
         if len(sys.argv) == 3 and sys.argv[2] == 'brute':
             subdomains = get_subdomains(brute=True) 
         else:
